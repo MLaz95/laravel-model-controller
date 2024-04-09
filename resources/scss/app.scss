@@ -1,1 +1,16 @@
 @import "~bootstrap/scss/bootstrap";
+
+.score{
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+
+.my_card{
+    cursor: pointer;
+    transition: border-color 0.3s;
+
+    &:hover{
+        border-color: $success;
+    }
+}
